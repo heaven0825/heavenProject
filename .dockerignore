@@ -1,0 +1,28 @@
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# 编译产物和临时文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/tmp
+
+# 文档和部署指南
+*.md
+deploy.md
+
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
