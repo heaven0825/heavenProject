@@ -3,7 +3,7 @@ set -e  # 脚本执行出错时立即退出（避免后续步骤异常执行）
 
 # -------------------------- 需修改的参数 --------------------------
 GITHUB_REPO="git@github.com:heaven0825/heavenProject.git"  # GitHub 仓库 SSH 地址
-PROJECT_DIR="/path/to/heavenyi"  # 服务器项目目录
+PROJECT_DIR="/path/to/heavenyi/heavenProject"  # 服务器项目目录
 DOCKER_IMAGE_NAME="heavenyi-test"  # Docker 镜像名（自定义）
 DOCKER_CONTAINER_NAME="heavenyi-test"  # Docker 容器名（自定义）
 # -------------------------------------------------------------------
