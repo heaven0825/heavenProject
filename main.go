@@ -12,7 +12,7 @@ func main() {
 	// 创建默认的gin路由
 	router := gin.Default()
 
-	// 定义API路由组2
+	// 定义API路由组3
 	api := router.Group("/api")
 	{
 		// 注册一个GET请求处理函数
