@@ -16,7 +16,7 @@ type HelloResponse struct {
 // HelloHandler 处理 /api/hello 请求
 func HelloHandler(c *gin.Context) {
 	response := HelloResponse{
-		Message:   "你好，欢迎使用Gin框架! 2025",
+		Message:   "你好，欢迎使用Gin框架! 2025 10 17",
 		Timestamp: time.Now(),
 	}
 
